@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+
+textarea {
+    resize: none;
+}
+
+/* .bg_example {
+    background-image: url('../images/shapes/Group\ 8446.png'), url('../images/food/Project\ Cover.jpg');
+    background-size: 300px 250px ;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, no-repeat;
+    height: 600px;
+} */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.section {
+    margin: 80px 0;
+}
+
+.sub__main {
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+.btn__primary {
+    border: none;
+    color: #333;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    background-color: greenyellow;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.common__heading {
+    text-transform: capitalize;
+    font-size: 35px;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.common__desc {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.text__left{
+    text-align: left;
+}
+
+.mt__20{
+    margin-top: 20px ;
+}
+
+.mt__80{
+    margin-top: 80px ;
+}
+
+.color__diff{
+    color: greenyellow !important;
+}
+
+/* end of common css  */
+
+/* heading css */
+
+.heading__section {
+    background-image: url('../images/donation0.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 120px 0;
+    position: relative;
+    z-index: 0;
+}
+
+.heading__section::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000069;
+    z-index: -1;
+}
+
+.heading__content {
+    text-align: center;
+}
+
+.heading__title {
+    color: #fff;
+    font-size: 60px;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+.heading__desc {
+    color: #fff;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+/* end of heading css */
+
+/* donate today desc  */
+
+
+.donate__main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.donate__box {
+    font-size: 25px;
+    font-weight: 600;
+    padding: 25px 35px;
+    box-sizing: border-box;
+    border: 2px solid greenyellow;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.donate__box:hover {
+    background-color: greenyellow;
+    color: #333;
+}
+
+.donate__form {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 0 0;
+}
+
+.donate__form__input {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.donate__form__input input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid greenyellow;
+    display: block;
+    width: 100%;
+}
+
+
+/* end of donate today desc  */
+
+/* donate plan section  */
+
+.donate__plan__main{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.donate__plan__single{
+    padding: 30px 15px ;
+    background-color: rgb(230, 255, 193);
+    cursor: pointer;
+    transition: all 0.3s linear ;
+    margin: 0px 10px ;
+}
+
+.donate__plan__single img{
+    width : 50px ; 
+    height: 50px ;
+}
+
+.plan__title{
+    text-transform: capitalize;
+    font-size: 22px ;
+    font-weight: 600;
+    margin : 15px 0 25px ; 
+}
+
+.plan__desc{
+    font-size: 16px ;
+    line-height: 24px ;
+}
+
+.donate__plan__single:hover{
+   background-color: greenyellow ;
+   border-radius: 3px ;
+}
+
+/* end of donate plan section  */
+
+.donate__gallary__single{
+    display: flex;
+    justify-content: space-between;
+}
+
+.donate__gallary__single__text{
+    width : 49% ; 
+}
+.donate__gallary__single__img{
+    width : 45% ; 
+}
+
+.news_letter{
+    background-color: rgb(230, 255, 193);
+    padding : 40px 20px ; 
+}
+
+.news__letter__form{
+    display: flex;
+    justify-content: center;
+}
+
+.news__letter__form form{
+    display: flex;
+}
+.news__letter__input{
+    border: 1px solid greenyellow ;
+}
+.news__letter__input input{
+    border: none;
+    width: 300px ;
+    height: 100% ;
+    padding-left: 20px ;
+}
+
+.footer__main{
+    background: #333 ;
+    padding: 40px ;
+    font-style: italic;
+}
